@@ -1,6 +1,6 @@
 ---
 - name: Install Python packages
-  apk: name={{ item }} state=present update-cache=yes
+  apk: name={{ item }} state=present update_cache=yes
   with_items:
     - "{{python35_alpine_pkg}}"
   tags: [packages,python35,python]
