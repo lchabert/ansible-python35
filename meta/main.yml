@@ -32,7 +32,7 @@ galaxy_info:
   # platforms is a list of platforms, and each platform has a name and a list of versions.
   #
   platforms:
-    - name: Alpine Linux
+    - name: Alpine
       versions:
         - 3.5
   galaxy_tags:
