@@ -1,0 +1,4 @@
+---
+# defaults file for ansible-python35
+python35_alpine_pkg:
+  - python3
